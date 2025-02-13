@@ -1,4 +1,5 @@
 #!/bin/bash
+
 /**
  *  * main - Entry point
  *   *
@@ -8,16 +9,7 @@ int main(void)
 {
 	    return (0);
 }
-julien@ubuntu:~/c/$ export CFILE=main.c
-julien@ubuntu:~/c/$ ./0-preprocessor 
-julien@ubuntu:~/c/$ tail c
-# 942 "/usr/include/stdio.h" 3 4
-
-# 2 "main.c" 2
-
-
-# 3 "main.c"
-int main(void)
-{
-	 return (0);
-}
+julien@ubuntu:~/c/$ ./1-compiler 
+julien@ubuntu:~/c/$ ls
+0-preprocessor  1-compiler   c            main.o
+Makefile               100-intel      main.c  main.s
