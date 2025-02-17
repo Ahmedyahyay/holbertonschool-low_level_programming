@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* main -This will prints positive,negative or zero numbers */
+/* function main -This will prints positive,negative or zero numbers*/
 int main(void)
 {
 	int n;
@@ -11,7 +11,7 @@ int main(void)
 	/* your code goes there */
 	if (n > 0)
 {
-	printf("%d is %s\n", n, " positive");
+	printf("%d is %s\n", n, "positive");
 }
 else if (n == 0)
 {
