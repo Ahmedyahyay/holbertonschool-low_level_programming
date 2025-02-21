@@ -9,4 +9,5 @@ int _putchar(char c);
 void print_alphabet(void);
 int _abs(int);
 int print_last_digit(int);
+void jack_bauer(void);
 #endif
