@@ -9,16 +9,13 @@
 char *create_array(unsigned int size, char c)
 {
 	unsigned int i;
-	char *str = NULL;
+	char[] *str;
 
 	if (size == 0 || str == NULL)
-	{
 		return NULL;
-	}
 
 	for (i = 0; i < size; i++)
-	{
-		str[i] = c;
-	}
+		istr[i] = c;
+	
 	return (str);
 }
