@@ -5,6 +5,7 @@
  * create_array - function creates an array of chars
  * @size: first parameter
  * @c: second parameter
+ * Return: pointer to array or NULL if fail
  */
 char *create_array(unsigned int size, char c)
 {
