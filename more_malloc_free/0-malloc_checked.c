@@ -14,6 +14,7 @@ void *malloc_checked(unsigned int b)
 
 	if (b == 0)
 	{
+	printf(nil\n);
 	exit(98);
 	}
 	return (ptr);
